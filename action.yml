@@ -37,7 +37,7 @@ runs:
 
     - name: Pull down Nupm
       shell: nu {0}
-    - run: |
+      run: |
         git clone https://github.com/nushell/nupm ${{ inputs.nupm_clone_path }}
         git -C ${{ inputs.nupm_clone_path }} checkout ${{ inputs.nupm_revision }}
 
