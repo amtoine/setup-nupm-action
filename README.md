@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup nushell and nupm
+      - name: Setup Nushell and Nupm
         uses: amtoine/setup-nupm-action@0.1.1
         with:
           nu_version: "0.87.0"
