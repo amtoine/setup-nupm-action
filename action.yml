@@ -27,7 +27,7 @@ outputs:
 runs:
   using: composite
   steps:
-    - uses: hustcer/setup-nu@v3.7
+    - uses: hustcer/setup-nu@v3.8
       with:
         version: ${{ inputs.nu_version }}
 
